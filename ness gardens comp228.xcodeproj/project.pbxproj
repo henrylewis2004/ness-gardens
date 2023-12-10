@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDDC38472B27476B00A712C3 /* Ness Gardens.gpx in Resources */ = {isa = PBXBuildFile; fileRef = CDDC38462B27476B00A712C3 /* Ness Gardens.gpx */; };
+		CDEAE25E2B26657400FED4C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE25D2B26657400FED4C3 /* AppDelegate.swift */; };
+		CDEAE2602B26657400FED4C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE25F2B26657400FED4C3 /* SceneDelegate.swift */; };
+		CDEAE2622B26657400FED4C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE2612B26657400FED4C3 /* ViewController.swift */; };
+		CDEAE2652B26657400FED4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAE2632B26657400FED4C3 /* Main.storyboard */; };
+		CDEAE2672B26657600FED4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEAE2662B26657600FED4C3 /* Assets.xcassets */; };
+		CDEAE26A2B26657600FED4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEAE2682B26657600FED4C3 /* LaunchScreen.storyboard */; };
+		CDEAE2752B26657600FED4C3 /* ness_gardens_comp228Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE2742B26657600FED4C3 /* ness_gardens_comp228Tests.swift */; };
+		CDEAE27F2B26657600FED4C3 /* ness_gardens_comp228UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE27E2B26657600FED4C3 /* ness_gardens_comp228UITests.swift */; };
+		CDEAE2812B26657600FED4C3 /* ness_gardens_comp228UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE2802B26657600FED4C3 /* ness_gardens_comp228UITestsLaunchTests.swift */; };
+		CDEAE28E2B26EBAA00FED4C3 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEAE28D2B26EBAA00FED4C3 /* detailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDEAE2712B26657600FED4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEAE2522B26657400FED4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEAE2592B26657400FED4C3;
+			remoteInfo = "ness gardens comp228";
+		};
+		CDEAE27B2B26657600FED4C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEAE2522B26657400FED4C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEAE2592B26657400FED4C3;
+			remoteInfo = "ness gardens comp228";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDDC38462B27476B00A712C3 /* Ness Gardens.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Ness Gardens.gpx"; sourceTree = "<group>"; };
+		CDEAE25A2B26657400FED4C3 /* ness gardens comp228.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ness gardens comp228.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEAE25D2B26657400FED4C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDEAE25F2B26657400FED4C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CDEAE2612B26657400FED4C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDEAE2642B26657400FED4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDEAE2662B26657600FED4C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDEAE2692B26657600FED4C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDEAE26B2B26657600FED4C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEAE2702B26657600FED4C3 /* ness gardens comp228Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ness gardens comp228Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEAE2742B26657600FED4C3 /* ness_gardens_comp228Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ness_gardens_comp228Tests.swift; sourceTree = "<group>"; };
+		CDEAE27A2B26657600FED4C3 /* ness gardens comp228UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ness gardens comp228UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEAE27E2B26657600FED4C3 /* ness_gardens_comp228UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ness_gardens_comp228UITests.swift; sourceTree = "<group>"; };
+		CDEAE2802B26657600FED4C3 /* ness_gardens_comp228UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ness_gardens_comp228UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDEAE28D2B26EBAA00FED4C3 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDEAE2572B26657400FED4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE26D2B26657600FED4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE2772B26657600FED4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDEAE2512B26657400FED4C3 = {
+			isa = PBXGroup;
+			children = (
+				CDEAE25C2B26657400FED4C3 /* ness gardens comp228 */,
+				CDEAE2732B26657600FED4C3 /* ness gardens comp228Tests */,
+				CDEAE27D2B26657600FED4C3 /* ness gardens comp228UITests */,
+				CDEAE25B2B26657400FED4C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDEAE25B2B26657400FED4C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAE25A2B26657400FED4C3 /* ness gardens comp228.app */,
+				CDEAE2702B26657600FED4C3 /* ness gardens comp228Tests.xctest */,
+				CDEAE27A2B26657600FED4C3 /* ness gardens comp228UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDEAE25C2B26657400FED4C3 /* ness gardens comp228 */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAE25D2B26657400FED4C3 /* AppDelegate.swift */,
+				CDEAE28D2B26EBAA00FED4C3 /* detailsViewController.swift */,
+				CDEAE25F2B26657400FED4C3 /* SceneDelegate.swift */,
+				CDEAE2612B26657400FED4C3 /* ViewController.swift */,
+				CDEAE2632B26657400FED4C3 /* Main.storyboard */,
+				CDEAE2662B26657600FED4C3 /* Assets.xcassets */,
+				CDEAE2682B26657600FED4C3 /* LaunchScreen.storyboard */,
+				CDEAE26B2B26657600FED4C3 /* Info.plist */,
+			);
+			path = "ness gardens comp228";
+			sourceTree = "<group>";
+		};
+		CDEAE2732B26657600FED4C3 /* ness gardens comp228Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAE2742B26657600FED4C3 /* ness_gardens_comp228Tests.swift */,
+			);
+			path = "ness gardens comp228Tests";
+			sourceTree = "<group>";
+		};
+		CDEAE27D2B26657600FED4C3 /* ness gardens comp228UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEAE27E2B26657600FED4C3 /* ness_gardens_comp228UITests.swift */,
+				CDEAE2802B26657600FED4C3 /* ness_gardens_comp228UITestsLaunchTests.swift */,
+				CDDC38462B27476B00A712C3 /* Ness Gardens.gpx */,
+			);
+			path = "ness gardens comp228UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDEAE2592B26657400FED4C3 /* ness gardens comp228 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEAE2842B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228" */;
+			buildPhases = (
+				CDEAE2562B26657400FED4C3 /* Sources */,
+				CDEAE2572B26657400FED4C3 /* Frameworks */,
+				CDEAE2582B26657400FED4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ness gardens comp228";
+			productName = "ness gardens comp228";
+			productReference = CDEAE25A2B26657400FED4C3 /* ness gardens comp228.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDEAE26F2B26657600FED4C3 /* ness gardens comp228Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEAE2872B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228Tests" */;
+			buildPhases = (
+				CDEAE26C2B26657600FED4C3 /* Sources */,
+				CDEAE26D2B26657600FED4C3 /* Frameworks */,
+				CDEAE26E2B26657600FED4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEAE2722B26657600FED4C3 /* PBXTargetDependency */,
+			);
+			name = "ness gardens comp228Tests";
+			productName = "ness gardens comp228Tests";
+			productReference = CDEAE2702B26657600FED4C3 /* ness gardens comp228Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDEAE2792B26657600FED4C3 /* ness gardens comp228UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEAE28A2B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228UITests" */;
+			buildPhases = (
+				CDEAE2762B26657600FED4C3 /* Sources */,
+				CDEAE2772B26657600FED4C3 /* Frameworks */,
+				CDEAE2782B26657600FED4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEAE27C2B26657600FED4C3 /* PBXTargetDependency */,
+			);
+			name = "ness gardens comp228UITests";
+			productName = "ness gardens comp228UITests";
+			productReference = CDEAE27A2B26657600FED4C3 /* ness gardens comp228UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDEAE2522B26657400FED4C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CDEAE2592B26657400FED4C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					CDEAE26F2B26657600FED4C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CDEAE2592B26657400FED4C3;
+					};
+					CDEAE2792B26657600FED4C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = CDEAE2592B26657400FED4C3;
+					};
+				};
+			};
+			buildConfigurationList = CDEAE2552B26657400FED4C3 /* Build configuration list for PBXProject "ness gardens comp228" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDEAE2512B26657400FED4C3;
+			productRefGroup = CDEAE25B2B26657400FED4C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDEAE2592B26657400FED4C3 /* ness gardens comp228 */,
+				CDEAE26F2B26657600FED4C3 /* ness gardens comp228Tests */,
+				CDEAE2792B26657600FED4C3 /* ness gardens comp228UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDEAE2582B26657400FED4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAE26A2B26657600FED4C3 /* LaunchScreen.storyboard in Resources */,
+				CDEAE2672B26657600FED4C3 /* Assets.xcassets in Resources */,
+				CDEAE2652B26657400FED4C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE26E2B26657600FED4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE2782B26657600FED4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDC38472B27476B00A712C3 /* Ness Gardens.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEAE2562B26657400FED4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAE2622B26657400FED4C3 /* ViewController.swift in Sources */,
+				CDEAE25E2B26657400FED4C3 /* AppDelegate.swift in Sources */,
+				CDEAE2602B26657400FED4C3 /* SceneDelegate.swift in Sources */,
+				CDEAE28E2B26EBAA00FED4C3 /* detailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE26C2B26657600FED4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAE2752B26657600FED4C3 /* ness_gardens_comp228Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEAE2762B26657600FED4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEAE2812B26657600FED4C3 /* ness_gardens_comp228UITestsLaunchTests.swift in Sources */,
+				CDEAE27F2B26657600FED4C3 /* ness_gardens_comp228UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDEAE2722B26657600FED4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEAE2592B26657400FED4C3 /* ness gardens comp228 */;
+			targetProxy = CDEAE2712B26657600FED4C3 /* PBXContainerItemProxy */;
+		};
+		CDEAE27C2B26657600FED4C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEAE2592B26657400FED4C3 /* ness gardens comp228 */;
+			targetProxy = CDEAE27B2B26657600FED4C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDEAE2632B26657400FED4C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEAE2642B26657400FED4C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDEAE2682B26657600FED4C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEAE2692B26657600FED4C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDEAE2822B26657600FED4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDEAE2832B26657600FED4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEAE2852B26657600FED4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ness gardens comp228/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDEAE2862B26657600FED4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ness gardens comp228/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDEAE2882B26657600FED4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ness gardens comp228.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ness gardens comp228";
+			};
+			name = Debug;
+		};
+		CDEAE2892B26657600FED4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ness gardens comp228.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ness gardens comp228";
+			};
+			name = Release;
+		};
+		CDEAE28B2B26657600FED4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ness gardens comp228";
+			};
+			name = Debug;
+		};
+		CDEAE28C2B26657600FED4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lewis.henry.ness-gardens-comp228UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ness gardens comp228";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEAE2552B26657400FED4C3 /* Build configuration list for PBXProject "ness gardens comp228" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAE2822B26657600FED4C3 /* Debug */,
+				CDEAE2832B26657600FED4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEAE2842B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAE2852B26657600FED4C3 /* Debug */,
+				CDEAE2862B26657600FED4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEAE2872B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAE2882B26657600FED4C3 /* Debug */,
+				CDEAE2892B26657600FED4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEAE28A2B26657600FED4C3 /* Build configuration list for PBXNativeTarget "ness gardens comp228UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEAE28B2B26657600FED4C3 /* Debug */,
+				CDEAE28C2B26657600FED4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDEAE2522B26657400FED4C3 /* Project object */;
+}
